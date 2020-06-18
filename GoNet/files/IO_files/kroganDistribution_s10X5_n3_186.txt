@@ -1,0 +1,583 @@
+TPD (n = 3)	Frequency
+3.0	0.00226
+4.0	0.3285
+5.0	8.0E-5
+6.0	9.3E-4
+7.0	2.1E-4
+8.0	0.00191
+9.0	0.00165
+10.0	0.00279
+11.0	0.01318
+12.0	0.26614
+13.0	0.02317
+14.0	0.28906
+15.0	0.00114
+16.0	0.06292
+17.0	0.00137
+18.0	0.00164
+19.0	8.4E-4
+20.0	9.2E-4
+21.0	2.6E-4
+22.0	4.6E-4
+23.0	1.1E-4
+24.0	2.6E-4
+25.0	5.0E-5
+26.0	1.0E-4
+27.0	4.0E-5
+28.0	1.0E-5
+
+TPD (n = 4)	Frequency
+32.0	0.00134
+33.0	0.0012
+34.0	9.3E-4
+35.0	4.8E-4
+36.0	0.00135
+37.0	5.0E-4
+38.0	3.7E-4
+39.0	7.9E-4
+40.0	1.1E-4
+41.0	1.8E-4
+42.0	1.6E-4
+43.0	1.0E-5
+44.0	1.0E-4
+45.0	4.0E-5
+46.0	1.0E-5
+47.0	1.0E-5
+10.0	5.0E-4
+11.0	4.8E-4
+12.0	3.0E-5
+13.0	0.00119
+14.0	4.6E-4
+15.0	0.00124
+16.0	8.3E-4
+17.0	0.00583
+19.0	0.00594
+20.0	7.0E-5
+21.0	0.45374
+22.0	0.00987
+23.0	0.00124
+24.0	0.28506
+25.0	0.00244
+26.0	0.12253
+27.0	0.03188
+28.0	0.00161
+29.0	0.0632
+30.0	0.00246
+31.0	0.00182
+
+TPD (n = 5)	Frequency
+33.0	0.00189
+32.0	4.0E-5
+34.0	4.2E-4
+35.0	4.0E-5
+36.0	0.00568
+37.0	0.0019
+39.0	0.33297
+38.0	7.7E-4
+40.0	0.01598
+41.0	0.00459
+42.0	0.57196
+43.0	0.02457
+44.0	0.0083
+45.0	0.00283
+47.0	0.00499
+46.0	0.00274
+48.0	0.00256
+49.0	5.2E-4
+50.0	0.0041
+51.0	0.00323
+52.0	7.1E-4
+53.0	3.6E-4
+54.0	0.00363
+55.0	6.8E-4
+56.0	6.2E-4
+57.0	3.0E-4
+58.0	0.00188
+59.0	1.4E-4
+61.0	4.4E-4
+60.0	2.8E-4
+62.0	3.8E-4
+63.0	4.0E-5
+64.0	6.0E-5
+66.0	1.1E-4
+65.0	5.0E-5
+70.0	1.0E-5
+68.0	5.0E-5
+23.0	1.0E-5
+26.0	2.0E-5
+27.0	2.0E-5
+28.0	1.0E-5
+29.0	3.0E-5
+30.0	2.0E-5
+31.0	7.0E-5
+
+TPD (n = 6)	Frequency
+49.0	1.0E-5
+51.0	4.0E-5
+53.0	5.0E-5
+55.0	1.0E-4
+54.0	5.0E-5
+57.0	0.00121
+56.0	0.00122
+59.0	8.9E-4
+58.0	0.00358
+61.0	0.85142
+60.0	0.00756
+62.0	0.00883
+63.0	0.00207
+66.0	0.01107
+64.0	0.02335
+65.0	0.00406
+67.0	0.00226
+71.0	0.00143
+70.0	0.01186
+68.0	0.02786
+69.0	0.0021
+74.0	0.00152
+73.0	0.00366
+75.0	0.00144
+72.0	0.00297
+77.0	0.00673
+79.0	0.00146
+78.0	0.00176
+76.0	0.00368
+83.0	0.0025
+82.0	0.00109
+80.0	0.0068
+81.0	9.6E-4
+85.0	0.00101
+86.0	7.5E-4
+84.0	2.3E-4
+87.0	7.0E-5
+89.0	2.0E-4
+90.0	0.00108
+88.0	5.0E-4
+91.0	2.0E-5
+93.0	4.0E-4
+92.0	4.0E-5
+95.0	3.0E-5
+94.0	3.0E-5
+96.0	2.0E-5
+97.0	1.0E-5
+100.0	1.0E-5
+105.0	1.0E-5
+
+TPD (n = 7)	Frequency
+75.0	1.0E-5
+79.0	7.7E-4
+78.0	5.0E-5
+81.0	3.0E-5
+83.0	2.6E-4
+82.0	6.0E-5
+80.0	7.0E-5
+85.0	0.08333
+84.0	0.0264
+86.0	0.02048
+87.0	7.9E-4
+89.0	0.10107
+88.0	0.04892
+90.0	0.01866
+91.0	2.6E-4
+93.0	0.27085
+92.0	0.01816
+95.0	0.08039
+94.0	0.02157
+98.0	0.02885
+97.0	0.0063
+96.0	0.03449
+99.0	4.1E-4
+101.0	0.01066
+100.0	0.01131
+103.0	0.01304
+102.0	3.5E-4
+104.0	0.06096
+107.0	0.07271
+106.0	7.2E-4
+105.0	4.2E-4
+110.0	0.00859
+109.0	0.02513
+111.0	2.1E-4
+108.0	5.6E-4
+113.0	0.01234
+112.0	6.3E-4
+114.0	3.4E-4
+115.0	1.5E-4
+117.0	3.1E-4
+116.0	0.00485
+119.0	0.01032
+118.0	1.3E-4
+122.0	0.0034
+120.0	2.4E-4
+123.0	8.0E-5
+121.0	7.0E-5
+124.0	9.0E-5
+125.0	4.0E-5
+126.0	2.0E-5
+132.0	4.0E-5
+128.0	6.0E-5
+129.0	2.0E-5
+133.0	1.0E-5
+130.0	1.0E-5
+140.0	1.0E-5
+
+TPD (n = 8)	Frequency
+106.0	1.0E-5
+104.0	1.0E-4
+107.0	2.0E-5
+110.0	0.00118
+111.0	0.00402
+108.0	4.9E-4
+109.0	9.0E-5
+114.0	0.01238
+112.0	0.00309
+115.0	0.00643
+113.0	0.00501
+117.0	0.01315
+118.0	0.02481
+119.0	0.01591
+116.0	0.0029
+120.0	0.00586
+122.0	0.05761
+121.0	0.03472
+123.0	0.01692
+127.0	0.01684
+124.0	0.05724
+126.0	0.05275
+125.0	0.06469
+131.0	0.08253
+134.0	0.02902
+135.0	0.00993
+130.0	0.00923
+133.0	0.0136
+132.0	0.01656
+128.0	0.02221
+129.0	0.01519
+137.0	0.01211
+142.0	0.01764
+141.0	0.0526
+136.0	0.03289
+140.0	0.01292
+139.0	0.01224
+138.0	0.02713
+143.0	0.01955
+146.0	0.01051
+147.0	0.01788
+145.0	0.05425
+149.0	0.02035
+144.0	0.00527
+148.0	0.01014
+150.0	0.00523
+151.0	0.00582
+154.0	0.0048
+153.0	0.00639
+159.0	0.01246
+152.0	0.02415
+157.0	0.00291
+155.0	0.00805
+158.0	0.00166
+156.0	0.00519
+161.0	0.00344
+163.0	0.00247
+162.0	0.00391
+160.0	0.00313
+166.0	0.00239
+167.0	0.00104
+164.0	0.00139
+165.0	6.7E-4
+172.0	1.5E-4
+171.0	6.0E-4
+168.0	2.0E-4
+169.0	0.00193
+173.0	8.6E-4
+175.0	1.3E-4
+170.0	4.1E-4
+176.0	3.6E-4
+180.0	1.1E-4
+177.0	1.0E-4
+178.0	1.0E-5
+184.0	7.0E-5
+
+TPD (n = 9) Not found
+
+TPD (n = 10) Not found
+
+TPD (n = 11) Not found
+
+TPD (n = 12) Not found
+
+TPD (n = 13) Not found
+
+TPD (n = 14) Not found
+
+TPD (n = 15) Not found
+
+TPD (n = 16) Not found
+
+TPD (n = 17) Not found
+
+TPD (n = 18) Not found
+
+TPD (n = 19) Not found
+
+TPD (n = 20) Not found
+
+TPD (n = 21) Not found
+
+TPD (n = 22) Not found
+
+TPD (n = 23) Not found
+
+TPD (n = 24) Not found
+
+TPD (n = 25) Not found
+
+TPD (n = 26) Not found
+
+TPD (n = 27) Not found
+
+TPD (n = 28) Not found
+
+TPD (n = 29) Not found
+
+TPD (n = 30) Not found
+
+TPD (n = 31) Not found
+
+TPD (n = 32) Not found
+
+TPD (n = 33) Not found
+
+TPD (n = 34) Not found
+
+TPD (n = 35) Not found
+
+TPD (n = 36) Not found
+
+TPD (n = 37) Not found
+
+TPD (n = 38) Not found
+
+TPD (n = 39) Not found
+
+TPD (n = 40) Not found
+
+TPD (n = 41) Not found
+
+TPD (n = 42) Not found
+
+TPD (n = 43) Not found
+
+TPD (n = 44) Not found
+
+TPD (n = 45) Not found
+
+TPD (n = 46) Not found
+
+TPD (n = 47) Not found
+
+TPD (n = 48) Not found
+
+TPD (n = 49) Not found
+
+TPD (n = 50) Not found
+
+TPD (n = 51) Not found
+
+TPD (n = 52) Not found
+
+TPD (n = 53) Not found
+
+TPD (n = 54) Not found
+
+TPD (n = 55) Not found
+
+TPD (n = 56) Not found
+
+TPD (n = 57) Not found
+
+TPD (n = 58) Not found
+
+TPD (n = 59) Not found
+
+TPD (n = 60) Not found
+
+TPD (n = 61) Not found
+
+TPD (n = 62) Not found
+
+TPD (n = 63) Not found
+
+TPD (n = 64) Not found
+
+TPD (n = 65) Not found
+
+TPD (n = 66) Not found
+
+TPD (n = 67) Not found
+
+TPD (n = 68) Not found
+
+TPD (n = 69) Not found
+
+TPD (n = 70) Not found
+
+TPD (n = 71) Not found
+
+TPD (n = 72) Not found
+
+TPD (n = 73) Not found
+
+TPD (n = 74) Not found
+
+TPD (n = 75) Not found
+
+TPD (n = 76) Not found
+
+TPD (n = 77) Not found
+
+TPD (n = 78) Not found
+
+TPD (n = 79) Not found
+
+TPD (n = 80) Not found
+
+TPD (n = 81) Not found
+
+TPD (n = 82) Not found
+
+TPD (n = 83) Not found
+
+TPD (n = 84) Not found
+
+TPD (n = 85) Not found
+
+TPD (n = 86) Not found
+
+TPD (n = 87) Not found
+
+TPD (n = 88) Not found
+
+TPD (n = 89) Not found
+
+TPD (n = 90) Not found
+
+TPD (n = 91) Not found
+
+TPD (n = 92) Not found
+
+TPD (n = 93) Not found
+
+TPD (n = 94) Not found
+
+TPD (n = 95) Not found
+
+TPD (n = 96) Not found
+
+TPD (n = 97) Not found
+
+TPD (n = 98) Not found
+
+TPD (n = 99) Not found
+
+TPD (n = 100) Not found
+
+TPD (n = 101) Not found
+
+TPD (n = 102) Not found
+
+TPD (n = 103) Not found
+
+TPD (n = 104) Not found
+
+TPD (n = 105) Not found
+
+TPD (n = 106) Not found
+
+TPD (n = 107) Not found
+
+TPD (n = 108) Not found
+
+TPD (n = 109) Not found
+
+TPD (n = 110) Not found
+
+TPD (n = 111) Not found
+
+TPD (n = 112) Not found
+
+TPD (n = 113) Not found
+
+TPD (n = 114) Not found
+
+TPD (n = 115) Not found
+
+TPD (n = 116) Not found
+
+TPD (n = 117) Not found
+
+TPD (n = 118) Not found
+
+TPD (n = 119) Not found
+
+TPD (n = 120) Not found
+
+TPD (n = 121) Not found
+
+TPD (n = 122) Not found
+
+TPD (n = 123) Not found
+
+TPD (n = 124) Not found
+
+TPD (n = 125) Not found
+
+TPD (n = 126) Not found
+
+TPD (n = 127) Not found
+
+TPD (n = 128) Not found
+
+TPD (n = 129) Not found
+
+TPD (n = 130) Not found
+
+TPD (n = 131) Not found
+
+TPD (n = 132) Not found
+
+TPD (n = 133) Not found
+
+TPD (n = 134) Not found
+
+TPD (n = 135) Not found
+
+TPD (n = 136) Not found
+
+TPD (n = 137) Not found
+
+TPD (n = 138) Not found
+
+TPD (n = 139) Not found
+
+TPD (n = 140) Not found
+
+TPD (n = 141) Not found
+
+TPD (n = 142) Not found
+
+TPD (n = 143) Not found
+
+TPD (n = 144) Not found
+
+TPD (n = 145) Not found
+
+TPD (n = 146) Not found
+
+TPD (n = 147) Not found
+
+TPD (n = 148) Not found
+
+TPD (n = 149) Not found
+
+TPD (n = 150) Not found
+
