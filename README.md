@@ -10,10 +10,23 @@ This tool enables statistical analysis of proteins annotated by Gene Ontology an
 * Java Version 8+
 * The Apache Commons Mathematics Library (*commons-math3-3.6.1.jar*) 
 
-### Required Input
+### Files
+#### Required input
+Found under: GoNet > files > inout_files
 * String supplemented Krogan Network (*krogan_prey_interaction_network.tsv*)
 * Propagated Gene Ontology terms (*GO_annotations-9606-inferred-allev-2.tsv*)
 
+#### Generated intermediate files
+Found under: GoNet > files > IO_files
+* initial distance matrix (*krogan_DistanceMatrix.txt*)
+* final distance matrix of fully connected component (*krogan_DistanceMatrix_FullConnected.txt*)
+* Monte Carlo distributions (*kroganDistribution_s10X5_n3_186.txt*)
+* shuffle Gene Ontology set (*shuffled-go.txt*)
+
+#### Output files
+Found under : GoNet > files > output_files
+* list of calculated false discovery rates at significant thresholds (*2020.04.08.MonoTransf_kroganFDR_10X5.txt*)
+* list of GO terms and their calculated p-values (*2020.04.08.MonoTransf_kroganGoTerms_s10X5.txt*)
+
 ### Running tool
-1. File paths listed in the *Main* will need to be updated
-2. Java scripts need to be compiled
+This tool was developped using java. All required scripts are found under GoNet > java. File paths must be modified under *Main* and scripts must be compiled prior to running. GoNet requires command line arguments, the array of proteins to sample for Monte Carlo Sampling and the number of times to sample the network during Monte Carlo Sampling.
