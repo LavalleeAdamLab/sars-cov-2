@@ -28,5 +28,36 @@ Found under : GoNet > files > output_files
 * list of calculated false discovery rates at significant thresholds (*2020.04.08.MonoTransf_kroganFDR_10X5.txt*)
 * list of GO terms and their calculated p-values (*2020.04.08.MonoTransf_kroganGoTerms_s10X5.txt*)
 
-### Running tool
+### Running GoNet
 This tool was developped using java. All required scripts are found under GoNet > java. File paths must be modified under *Main* and scripts must be compiled prior to running. GoNet requires command line arguments, the array of proteins to sample for Monte Carlo Sampling and the number of times to sample the network during Monte Carlo Sampling.
+
+# LESMoN-Pro: Sequence Motif enrichment analysis of String supplemented Krogan Network 
+This tool enables statistical analysis of proteins with shared sequence motifs in the provided network. For a given motif, it computes a clustering measure for it's associated proteins and assesses their significance from a Monte Carlo derived normal distribution. A false discovery rate is approximated by comparing the motif set to randomized sequence motifs. Motifs who's proteins are significantly clustered are identified at an FDR < 0.01. 
+
+### Dependencies
+* Java Version 8+
+* The Apache Commons Mathematics Library (*commons-math3-3.6.1.jar*)
+
+* Python Version **XX 
+* Packages **XX
+
+### Files
+#### Required input
+Found under: LESMoN-Pro > files > inout_files
+* String supplemented Krogan Network (*krogan_prey_interaction_network.tsv*)
+* List of motifs and associated proteins (**)
+* List of randomized motifs and associated proteins (**)
+
+#### Generated intermediate files
+Found under: LESMoN-Pro > files > IO_files
+* initial distance matrix (*krogan_DistanceMatrix.txt*)
+* final distance matrix of fully connected component (*krogan_DistanceMatrix_FullConnected.txt*)
+* Monte Carlo distributions (**)
+
+#### Output files
+Found under : GoNet > files > output_files
+* list of calculated false discovery rates at significant thresholds (**)
+* list of motifs and their calculated p-values (**)
+
+### Running LESMoN-Pro
+
