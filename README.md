@@ -31,7 +31,7 @@ Found under : GoNet > files > output_files
 ### Running GoNet
 This tool was developped using java. All required scripts are found under GoNet > java. File paths must be modified under *Main* and scripts must be compiled prior to running. GoNet requires command line arguments, the array of proteins to sample for Monte Carlo Sampling and the number of times to sample the network during Monte Carlo Sampling.
 
-# LESMoN-Pro: Sequence Motif enrichment analysis of String supplemented Krogan Network 
+## LESMoN-Pro: Sequence Motif enrichment analysis of String supplemented Krogan Network 
 This tool enables statistical analysis of proteins with shared sequence motifs in the provided network. For a given motif, it computes a clustering measure for it's associated proteins and assesses their significance from a Monte Carlo derived normal distribution. A false discovery rate is approximated by comparing the motif set to randomized sequence motifs. Motifs who's proteins are significantly clustered are identified at an FDR < 0.01. 
 
 *Prior to running LESMoN pro, sequence randomization and sequence enumeration must be performed.*
@@ -72,3 +72,12 @@ This tool was developped using java and python. All required scripts are found u
 
 ## Shuffling sequence
 Protein sequences were randomized using non overlapping sliding windows of size 10. This tool was implemented in python. It requires the input of a Fasta file containing all protein sequences in the String supplement Krogan Network (*Krogan_Protein_database.fasta*) and returns a Fasta file of randomized sequences (*Krogan_Protein_database_SHUFFLED.fasta*). Files are found under folder *Shuffling Fasta Sequences*. 
+
+## Markov Cluster (MCL) Algorithm of the String supplemented Krogan network
+The MCL algorithm is a tool developped by Enright A.J., *et al.* to cluster graphs. Here, it is used to identify innate clusters in the String supplemented Krogan network prior to functional enrichment analysis using Ontologizer and sequence motif enrichment analysis using MEME. Files are found under MCL folder. 
+
+### Dependencies
+The MCL algorithm is a commandline tool that was downloaded from [https://micans.org/mcl/src/]. 
+
+### Running MCL
+The MCL algorithm was provided the graph input file (*nodes.txt*), with parameters `--abc` for specified input format, `-I` for an inflation variable of 2, and `-o` specified output file name (*kroganMCL_2.txt*). Commandline output was directed to file (*kroganOutput_2.txt*).
