@@ -34,6 +34,8 @@ This tool was developped using java. All required scripts are found under GoNet 
 # LESMoN-Pro: Sequence Motif enrichment analysis of String supplemented Krogan Network 
 This tool enables statistical analysis of proteins with shared sequence motifs in the provided network. For a given motif, it computes a clustering measure for it's associated proteins and assesses their significance from a Monte Carlo derived normal distribution. A false discovery rate is approximated by comparing the motif set to randomized sequence motifs. Motifs who's proteins are significantly clustered are identified at an FDR < 0.01. 
 
+*Prior to running LESMoN pro, sequence randomization and sequence enumeration must be performed.*
+
 ### Dependencies
 * Java Version 8+
 * Required library: The Apache Commons Mathematics Library (*commons-math3-3.6.1.jar*)
@@ -67,3 +69,6 @@ Found under : LESMoN-Pro > files > output_files
 
 ### Running LESMoN-Pro
 This tool was developped using java and python. All required scripts are found under LESMoN-Pro > java and LESMON-Pro > python. File paths must be modified under *Main* and *FDRcalc* and java scripts must be compiled prior to running. The java implementation must be run prior to python FDRcalc and requires command line arguments, the array of proteins to sample for Monte Carlo Sampling and the number of times to sample the network during Monte Carlo Sampling.
+
+## Shuffling sequence
+Protein sequences were randomized using non overlapping sliding windows of size 10. This tool was implemented in python. It requires the input of a Fasta file containing all protein sequences in the String supplement Krogan Network (*Krogan_Protein_database.fasta*) and returns a Fasta file of randomized sequences (*Krogan_Protein_database_SHUFFLED.fasta*). Files are found under folder *Shuffling Fasta Sequences*. 
